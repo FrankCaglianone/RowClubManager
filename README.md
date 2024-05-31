@@ -26,7 +26,19 @@ This software was developed as part of the Systems Programming course at Univers
 - `get_boat_kilometers(c, name)`: Returns the distance traveled by a specific boat. Returns `-1` on error.
 
 ## Usage 🛠️
+The application includes a Makefile for easy compilation and testing. Ensure that the `test` folder, `Makefile`, the header file named `rowing.h`, and the source code file named `rowing.cc` are all in the same directory. Follow the steps below to compile and test the software:
 
+### Running Tests
+To compile and run the tests, use the following command:
+```bash
+make rowing
+```
+### Creating an Executable
+If you wish to perform custom operations, insert the desired operations into the main function of rowing.cc. Compile the program into an executable named main with the following command:
+```bash
+g++ -g rowing.cc -o main
+```
+This will allow you to execute your custom operations by running ./main.
 
 ## License 📄
 [MIT License](LICENSE)
