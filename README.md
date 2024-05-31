@@ -2,12 +2,17 @@
 
 `RowClubManager` is a set of C++ structures and functions designed to manage boats and excursions at a rowing club. The club has a number of boats and a number of members who join the club to participate in excursions. Each excursion must be recorded, so that the system can keep track of which boats are in use at any given time. The system also keeps track of the number of excursions and the total number of kilometers traveled by each member of the club. 
 
+<br>
 
 ## Project Purpose 🎯
 This software was developed as part of the Systems Programming course at Università della Svizzera italiana (USI), Lugano, taught by Professor Dr. [Antonio Carzaniga](https://search.usi.ch/it/persone/cdc278cad8619ae5f51219135ee1599d/carzaniga-antonio).
 
+<br>
+
 ## Requirements 📋
 - C/C++ compiler
+
+<br>
 
 ## Project Structure 🏗️
 - `create_club()`: Initializes a new, empty club. Returns a pointer or `nullptr` on failure.
@@ -25,6 +30,8 @@ This software was developed as part of the Systems Programming course at Univers
 - `get_boat_excursions(c, name)`: Returns the number of excursions using a specific boat. Returns `-1` on error.
 - `get_boat_kilometers(c, name)`: Returns the distance traveled by a specific boat. Returns `-1` on error.
 
+<br>
+
 ## Usage 🛠️
 The application includes a Makefile for easy compilation and testing. Ensure that the `test` folder, `Makefile`, the header file named `rowing.h`, and the source code file named `rowing.cc` are all in the same directory. Follow the steps below to compile and test the software:
 
@@ -40,8 +47,12 @@ g++ -g rowing.cc -o main
 ```
 This will allow you to execute your custom operations by running ./main.
 
+<br>
+
 ## License 📄
 [MIT License](LICENSE)
+
+<br>
 
 ## Credits 💳
 Special thanks to Professor [Antonio Carzaniga](https://search.usi.ch/it/persone/cdc278cad8619ae5f51219135ee1599d/carzaniga-antonio) for his guidance in Systems Programming and for devising this engaging project.
